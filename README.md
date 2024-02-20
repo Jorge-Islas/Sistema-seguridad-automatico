@@ -14,7 +14,7 @@ La empresa quiere lograr mejorar la eficiencia de su sistema de seguridad sin el
 | --- | --- |
 | ![Bodegas 2](https://www.masespacio.com.mx/wp-content/uploads/2017/02/Bodegas-Planta-alta.jpg) | ![Bodegas 1](https://images.squarespace-cdn.com/content/v1/62acc65dba26a33883ed7e7f/b4fc20a0-9632-4ca8-97ce-96bb4efb609c/rentaminibodegas.jpg) |
 | ![Bodegas 3](https://www.bienesonline.com/mexico/photos/citymax-renta-mini-bodega-en-la-del-valle-sur-cdmx-11534798059.jpg) | ![Bodegas 4](https://www.bienesonline.com/mexico/photos/img04061192144263.jpg) |
-| ![Bodegas 5](https://img10.naventcdn.com/avisos/18/01/41/60/10/70/1200x1200/1126340139.jpg) |   |
+| ![Bodegas 5](https://static.tokkobroker.com/pictures/3637792760703784282457639241894829995231391692801843966287157100528781432019.jpg) |   |
 
 ## Análisis del problema
 
