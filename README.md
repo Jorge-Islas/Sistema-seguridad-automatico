@@ -1,14 +1,17 @@
-# Sistema de seguridad automático
+<h1 align="center"><strong> Sistema de seguridad automático</strong></h1>
 
 ![Video original vs prototipo](demos/Video-prototipo.gif)
 
+[<p align="center"><img alt="Static Badge" src="https://img.shields.io/badge/-Pru%C3%A9balo%20en%20Colab-fbfbfb?style=for-the-badge&logo=googlecolab&logoColor=%23FBFBFB&labelColor=%23F9AB00&color=%23050505"></p>](https://colab.research.google.com/github/Jorge-Islas/Sistema-seguridad-automatico/blob/main/Sistema-seguridad-automatico.ipynb)
+
+
 ## Descripción del problema
 
-Una empresa que se dedica a rentar bodegas como las que aparecen en las [imágenes](#imágenes-de-bodegas) quiere mejorar la eficiencia de su sistema de seguridad. 
+Una empresa que se dedica a rentar bodegas como las que aparecen en las [imágenes](#imágenes-de-bodegas) quiere **mejorar la eficiencia** de su sistema de seguridad. 
 
-Dicho sistema de seguridad consiste en tener dos guardias de seguridad encargados de revisar la entrada y salida de personas, vigilar la transimisión de video de las cámaras de seguridad instaladas en todo el establecimiento y ejecutar protocolos de seguridad cuando detecten personas no autorizadas o personas ejecutando acciones sospechosas dentro del establecimiento.
+Dicho sistema de seguridad consiste en tener dos guardias de seguridad encargados de **revisar** la entrada y salida de personas, **vigilar la transimisión de video** de las cámaras de seguridad instaladas en todo el establecimiento y **ejecutar protocolos de seguridad** cuando detecten personas no autorizadas o personas ejecutando acciones sospechosas dentro del establecimiento.
 
-La empresa quiere lograr mejorar la eficiencia de su sistema de seguridad sin eliminar completamente la corroboración humana de los eventos o sucesos, y al mismo tiempo quiere reducir la probabilidad de que su personal facilite las condiciones para que suceda algún evento.
+La empresa quiere lograr mejorar la **eficacia** de su sistema de seguridad sin eliminar completamente la **corroboración humana** de los eventos o sucesos, y al mismo tiempo quiere **reducir la probabilidad** de que su personal facilite las condiciones para que suceda algún evento.
 
 ### Imágenes de bodegas
 
@@ -22,8 +25,8 @@ La empresa quiere lograr mejorar la eficiencia de su sistema de seguridad sin el
 
 Dada la descripción general del problema, se pueden definir dos puntos clave para el diseño de la solución al problema:
 
-1. Se quiere mejorar la capacidad de los guardias para detectar eventos a través de la transmisión de video de las cámaras de seguridad
-2. Se quiere encontrar una forma de registrar eventos e información importante de estos cuando los guardias no los reporten y no ejecuten los protocolos de seguridad
+1. Se quiere **mejorar la capacidad** de los guardias para **detectar eventos** a través de la transmisión de video de las cámaras de seguridad
+2. Se quiere encontrar una forma de **registrar eventos** e información importante de estos cuando los guardias **no los reporten** y no ejecuten los protocolos de seguridad
 
 ## Propuesta de solución
 
@@ -43,14 +46,18 @@ La idea sería que la transmisión de video que vigilan los guardias de segurida
 | ---------- | ---------- |
 | ![Detección 1](img/cam-seguridad/ejemplo-inferencia-1.jpg) | ![alt text](img/cam-seguridad/ejemplo-inferencia-2.png) |
 
-## Implementación de la solución y prototipo
+## Implementación de prototipo de la solución
 
-Para hacer el prototipo de la solución se usará el modelo YOLOv8 nano, un modelo rápido, ligero y con un desempeño bueno. Se utilizará la implementación de [ultralytics](https://github.com/ultralytics/ultralytics) para entrenar el modelo y hacer inferencias (dibujar los recuadros alrededor de las personas).
+Para hacer el prototipo de la solución se utilizó el modelo **YOLOv8 nano**, un modelo **rápido**, **ligero** y con un **buen desempeño**. Se utilizará la [implementación de ultralytics](https://github.com/ultralytics/ultralytics) para entrenar / personalizar el modelo y poder hacer inferencias, es decir, dibujar los recuadros alrededor de las personas.
 
-[Ver notebook de Jupyter](./Sistema_seguridad_automatico.ipynb)
+Puedes seguir el proceso de cómo se logra esto con el siguiente [notebook de Jupyter](./Sistema_seguridad_automatico.ipynb), o puedes:
 
-[Pruébalo en Google Colab](https://colab.research.google.com/github/Jorge-Islas/Sistema-seguridad-automatico/blob/main/Sistema-seguridad-automatico.ipynb)
+[![Static Badge](https://img.shields.io/badge/-Probarlo%20en%20Colab-fbfbfb?style=for-the-badge&logo=googlecolab&logoColor=%23FBFBFB&labelColor=%23F9AB00&color=%23050505&link=https%3A%2F%2Fcolab.research.google.com%2Fgithub%2FJorge-Islas%2FSistema-seguridad-automatico%2Fblob%2Fmain%2FSistema-seguridad-automatico.ipynb)](https://colab.research.google.com/github/Jorge-Islas/Sistema-seguridad-automatico/blob/main/Sistema-seguridad-automatico.ipynb)
 
-## Referencias
+También puedes ver las demos de este modelo en acción en los gifs y video de la carpeta [demos](./demos).
 
-[Datos](https://universe.roboflow.com/project-d4kos/human-cctv)
+## Enlaces útiles
+
+[Datos](https://universe.roboflow.com/project-d4kos/human-cctv) utilizados para entrenar el modelo.
+
+[Crear cuenta de Roboflow y obtener clave / key](https://www.youtube.com/watch?v=76E6esnez8E) para poder descargar datos desde esa plataforma (video en inglés).
