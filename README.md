@@ -2,8 +2,9 @@
 
 ![Video original vs prototipo](demos/Video-prototipo.gif)
 
-<a href="https://colab.research.google.com/github/Jorge-Islas/Sistema-seguridad-automatico/blob/main/Sistema-seguridad-automatico.ipynb"><p align="center"><img alt="Static Badge" src="https://img.shields.io/badge/-Pru%C3%A9balo%20en%20Colab-fbfbfb?style=for-the-badge&logo=googlecolab&logoColor=%23FBFBFB&labelColor=%23F9AB00&color=%23050505"></p></a>
-
+<div align="center">
+<a href="https://colab.research.google.com/github/Jorge-Islas/Sistema-seguridad-automatico/blob/main/Sistema-seguridad-automatico.ipynb"><img alt="Static Badge" src="https://img.shields.io/badge/-Pru%C3%A9balo%20en%20Colab-fbfbfb?style=for-the-badge&logo=googlecolab&logoColor=%23FBFBFB&labelColor=%23F9AB00&color=%23050505"></a>
+</div>
 
 ## Descripción del problema
 
