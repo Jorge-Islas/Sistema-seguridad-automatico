@@ -12,9 +12,9 @@ La empresa quiere lograr mejorar la eficiencia de su sistema de seguridad sin el
 
 | Interiores | Exteriores |
 | --- | --- |
-| ![Bodegas 2](https://www.masespacio.com.mx/wp-content/uploads/2017/02/Bodegas-Planta-alta.jpg) | ![Bodegas 1](https://images.squarespace-cdn.com/content/v1/62acc65dba26a33883ed7e7f/b4fc20a0-9632-4ca8-97ce-96bb4efb609c/rentaminibodegas.jpg) |
-| ![Bodegas 3](https://www.bienesonline.com/mexico/photos/citymax-renta-mini-bodega-en-la-del-valle-sur-cdmx-11534798059.jpg) | ![Bodegas 4](https://www.bienesonline.com/mexico/photos/img04061192144263.jpg) |
-| ![Bodegas 5](https://static.tokkobroker.com/pictures/3637792760703784282457639241894829995231391692801843966287157100528781432019.jpg) |   |
+| ![Bodegas 1](img/bodegas/bodegas-1.jpg) | ![Bodegas 2](img/bodegas/bodegas-2.jpg) |
+| ![Bodegas 3](img/bodegas/bodegas-3.jpg) | ![Bodegas 4](img/bodegas/bodegas-4.jpg) |
+| ![Bodegas 5](img/bodegas/bodegas-5.jpg) |   |
 
 ## Análisis del problema
 
@@ -25,7 +25,7 @@ Dada la descripción general del problema, se pueden definir dos puntos clave pa
 
 ## Propuesta de solución
 
-Una opción para abordar el problema es integrar al sistema de vigilancia un [modelo de detección de objetos](link-a-recurso-adicional) entrenado para detectar **personas** de todo tipo en diferentes **ángulos de cámara** en [imágenes](#imágenes-de-cámaras-de-seguridad) de **resolución media o baja** (resolución de cámaras de vigilancia) con vista **diurna y nocturna**. 
+Una opción para abordar el problema es integrar al sistema de vigilancia un [modelo de detección de objetos]() entrenado para detectar **personas** de todo tipo en diferentes **ángulos de cámara** en [imágenes](#imágenes-de-cámaras-de-seguridad) de **resolución media o baja** (resolución de cámaras de vigilancia) con vista **diurna y nocturna**. 
 
 La idea sería que la transmisión de video que vigilan los guardias de seguridad también incluya los [recuadros generados](#imágenes-con-recuadros) por el modelo de detección, así facilitando el trabajo de detectar oportunamete eventos o sucesos. También, la idea seria que los eventos o sucesos **potenciales** que el modelo de detecte se **registraran** con la información pertinente, como las horas de inicio y fin del suceso y el fragmento de video correspondiente, así facilitándole la **investigación de sucesos sospechosos** a la administración y **disuadiendo** a los guardias de facilitar las condiciones para que suceda un evento.
 
@@ -33,17 +33,21 @@ La idea sería que la transmisión de video que vigilan los guardias de segurida
 
 | Diurnas | Nocturnas |
 | ------- | --------- |
-| ![Imagen diurna 1](https://i.ytimg.com/vi/b73oXDqvAf8/maxresdefault.jpg) | ![Imagen nocturna 1](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn3OhbgshmMn0uH2ire-QfaUpYwDfAiagvMw&usqp=CAU) |
+| ![Imagen diurna 1](img/cam-seguridad/imagen-diurna.jpg) | ![Imagen nocturna 1](img/cam-seguridad/imagen-nocturna.jpeg) |
 
 ### Imágenes con recuadros
 
 | Interiores | Exteriores |
 | ---------- | ---------- |
-| ![Detección 1](https://github.com/AfifHM/Smart-CCTV-Using-Face-and-Human-Detection/raw/master/Images_Hasil/FrameOut68.jpg) | ![alt text](img/cam-exterior.png) |
+| ![Detección 1](img/cam-seguridad/ejemplo-inferencia-1.jpg) | ![alt text](img/cam-seguridad/ejemplo-inferencia-2.png) |
 
 ## Implementación de la solución
 
+Para hacer el prototipo de la solución se usará el modelo YOLOv8 nano, un modelo rápido, ligero y con un desempeño bueno. Se utilizará la implementación de [ultralytics](https://github.com/ultralytics/ultralytics) para entrenar el modelo y hacer inferencias (dibujar los recuadros alrededor de las personas).
 
+[Ver notebook de Jupyter]()
+
+[Pruébalo en Google Colab]()
 
 ## Referencias
 
