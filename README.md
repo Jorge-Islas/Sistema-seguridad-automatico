@@ -1,5 +1,7 @@
 # Sistema de seguridad automático
 
+![Video original vs prototipo](demos/Video-prototipo.gif)
+
 ## Descripción del problema
 
 Una empresa que se dedica a rentar bodegas como las que aparecen en las [imágenes](#imágenes-de-bodegas) quiere mejorar la eficiencia de su sistema de seguridad. 
@@ -41,14 +43,14 @@ La idea sería que la transmisión de video que vigilan los guardias de segurida
 | ---------- | ---------- |
 | ![Detección 1](img/cam-seguridad/ejemplo-inferencia-1.jpg) | ![alt text](img/cam-seguridad/ejemplo-inferencia-2.png) |
 
-## Implementación de la solución
+## Implementación de la solución y prototipo
 
 Para hacer el prototipo de la solución se usará el modelo YOLOv8 nano, un modelo rápido, ligero y con un desempeño bueno. Se utilizará la implementación de [ultralytics](https://github.com/ultralytics/ultralytics) para entrenar el modelo y hacer inferencias (dibujar los recuadros alrededor de las personas).
 
-[Ver notebook de Jupyter]()
+[Ver notebook de Jupyter](./Sistema_seguridad_automatico.ipynb)
 
-[Pruébalo en Google Colab]()
+[Pruébalo en Google Colab](https://colab.research.google.com/github/Jorge-Islas/Sistema-seguridad-automatico/blob/main/Sistema-seguridad-automatico.ipynb)
 
 ## Referencias
 
-[Datos](https://universe.roboflow.com/dongguk-university-v2wxu/camera-calibration/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+[Datos](https://universe.roboflow.com/project-d4kos/human-cctv)
