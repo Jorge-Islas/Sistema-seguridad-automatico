@@ -20,7 +20,7 @@ La empresa quiere lograr mejorar la **eficacia** de su sistema de seguridad sin 
 | --- | --- |
 | ![Bodegas 1](img/bodegas/bodegas-1.jpg) | ![Bodegas 2](img/bodegas/bodegas-2.jpg) |
 | ![Bodegas 3](img/bodegas/bodegas-3.jpg) | ![Bodegas 4](img/bodegas/bodegas-4.jpg) |
-| ![Bodegas 5](img/bodegas/bodegas-5.jpg) |   |
+| ![Bodegas 5](img/bodegas/bodegas-5.jpg) | ![Bodegas 6](img/bodegas/bodegas-6.jpeg) |
 
 ## Análisis del problema
 
@@ -33,7 +33,7 @@ Dada la descripción general del problema, se pueden definir dos puntos clave pa
 
 Una opción para abordar el problema es integrar al sistema de vigilancia un [modelo de detección de objetos](https://jorgeislas.com/2024/02/21/que-es-un-modelo-de-deteccion-de-objetos/) entrenado para detectar **personas** de todo tipo en diferentes **ángulos de cámara** en [imágenes](#imágenes-de-cámaras-de-seguridad) de **resolución media o baja** (resolución de cámaras de vigilancia) con vista **diurna y nocturna**. 
 
-La idea sería que la transmisión de video que vigilan los guardias de seguridad también incluya los [recuadros generados](#imágenes-con-recuadros) por el modelo de detección, así facilitando el trabajo de detectar oportunamete eventos o sucesos. También, la idea seria que los eventos o sucesos **potenciales** que el modelo de detecte se **registraran** con la información pertinente, como las horas de inicio y fin del suceso y el fragmento de video correspondiente, así facilitándole la **investigación de sucesos sospechosos** a la administración y **disuadiendo** a los guardias de facilitar las condiciones para que suceda un evento.
+La idea sería que la transmisión de video que vigilan los guardias de seguridad también incluya los [recuadros generados](#imágenes-con-recuadros) por el modelo de detección, facilitando así el trabajo de detectar oportunamete eventos o sucesos. También, la idea seria que los eventos o sucesos **potenciales** que el modelo de detecte se **registraran** con la información pertinente, como las horas de inicio y fin del suceso y el fragmento de video correspondiente, facilitando así la **investigación de sucesos sospechosos** a la administración y **disuadiendo** a los guardias de facilitar las condiciones para que suceda un evento.
 
 ### Imágenes de cámaras de seguridad
 
