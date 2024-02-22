@@ -51,7 +51,7 @@ La idea sería que la transmisión de video que vigilan los guardias de segurida
 
 Para hacer el prototipo de la solución se utilizó el modelo **YOLOv8 nano**, un modelo **rápido**, **ligero** y con un **buen desempeño**. Se utilizará la [implementación de ultralytics](https://github.com/ultralytics/ultralytics) para entrenar / personalizar el modelo y poder hacer inferencias, es decir, dibujar los recuadros alrededor de las personas.
 
-Puedes seguir el proceso de cómo se logra esto con el siguiente [notebook de Jupyter](./Sistema_seguridad_automatico.ipynb), o puedes:
+Puedes seguir el proceso de cómo se logra esto con el siguiente [notebook de Jupyter](./Sistema-seguridad-automatico.ipynb), o puedes:
 
 [![Static Badge](https://img.shields.io/badge/-Probarlo%20en%20Colab-fbfbfb?style=for-the-badge&logo=googlecolab&logoColor=%23FBFBFB&labelColor=%23F9AB00&color=%23050505&link=https%3A%2F%2Fcolab.research.google.com%2Fgithub%2FJorge-Islas%2FSistema-seguridad-automatico%2Fblob%2Fmain%2FSistema-seguridad-automatico.ipynb)](https://colab.research.google.com/github/Jorge-Islas/Sistema-seguridad-automatico/blob/main/Sistema-seguridad-automatico.ipynb)
 
